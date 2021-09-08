@@ -16,7 +16,7 @@ export const Contact = () => {
             <div className="display-2">Contact Us</div>
           </Row>
         </Container>
-        <Form className="mt-5">
+        <Form name="contact" netlify className="mt-5">
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="name@example.com" />
